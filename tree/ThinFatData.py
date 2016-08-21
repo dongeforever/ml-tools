@@ -55,7 +55,7 @@ def getClassValueV2(X):
 
     
 if __name__ == '__main__':
-    tt = createDataSet()
+    tt = createDataSet(version=2)
     print(tt)
     print 'num:%d positive:%d' % (len(tt),len(tt[tt.type == 1]))
 
